@@ -5,8 +5,7 @@
  */
 package oracle.java.se.tutorial;
 
-import oracle.java.se.tutorial.javaConcepts.ClassDemo;
-import oracle.java.se.tutorial.javaConcepts.InheritanceDemo;
+import oracle.java.se.tutorial.javaConcepts.*;
 
 /**
  *
@@ -53,6 +52,18 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
     
+        /*
+        Job 4. Interface
+        URL: https://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+        */
+        
+        System.out.println ("\nLesson 4 (Interafce):\n");
+        
+        InterfaceDemo interfaceDemo = new InterfaceDemo();
+        interfaceDemo.alarmClockDemo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
