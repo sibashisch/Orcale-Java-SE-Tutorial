@@ -64,6 +64,30 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 5. Variables
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+        */
+        
+        System.out.println ("\nLesson 5 (Variables):\n");
+        
+        VariableDemo variableDemo = new VariableDemo();
+        variableDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
+        /*
+        Job 6. Array
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+        */
+        
+        System.out.println ("\nLesson 6 (Array):\n");
+        
+        ArrayDemo arrayDemo = new ArrayDemo();
+        arrayDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
