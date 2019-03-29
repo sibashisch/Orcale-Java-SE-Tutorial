@@ -88,6 +88,56 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 7. Operators
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
+        */
+        
+        System.out.println ("\nLesson 7 (Operators):\n");
+        
+        OperatorDemo operatorDemo = new OperatorDemo();
+        operatorDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
+        /*
+        Job 8. Statements and Blocks
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/expressions.html
+        */
+        
+        System.out.println ("\nLesson 8 (Statement and Blocks):\n");
+        
+        BlockDemo blockDemo = new BlockDemo();
+        blockDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
+        /*
+        Job 9. Branch Control
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+         and https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+        */
+        
+        System.out.println ("\nLesson 9 (Branch Control):\n");
+        
+        BranchDemo branchDemo = new BranchDemo();
+        branchDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
+        /*
+        Job 10. Loop Control
+        URL: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+         and https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html
+        */
+        
+        System.out.println ("\nLesson 10 (Loop Control):\n");
+        
+        LoopControlDemo loopDemo = new LoopControlDemo();
+        loopDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
