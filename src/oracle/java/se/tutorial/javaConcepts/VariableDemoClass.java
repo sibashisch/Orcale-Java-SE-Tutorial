@@ -20,8 +20,8 @@ public class VariableDemoClass {
     short integer16bit = 12345;
     int integer32bit = 123456;
     long integer64bit = 1234567;
-    float floatingPoint = 1/3;
-    double doublePrecision = 1/3;
+    float floatingPoint = (float)1/(float)3;
+    double doublePrecision = (double)1/(double)3;
     boolean booleanLiteral = true;
     char character = 'a';
     
