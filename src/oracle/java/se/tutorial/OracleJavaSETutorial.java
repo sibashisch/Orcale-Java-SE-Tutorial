@@ -152,6 +152,18 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 12. Access Modifiers
+        URL: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+        */
+        
+        System.out.println ("\nLesson 12 (Access Control):\n");
+        
+        AccessDemo accessDemo = new AccessDemo();
+        accessDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
