@@ -15,9 +15,12 @@ public class Bicycle {
     This code demonstrates the basic componets of a class (i.e. fields and methods)
     */
     
+    // These are fields
     int cadence = 0;
     int speed = 0;
     int gear = 1;
+    
+    // These are methods
     
     void changeCadence(int newValue) {
          cadence = newValue;

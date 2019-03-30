@@ -138,6 +138,20 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 11. Constructor, overloading and access modifier
+        URL: https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
+         and https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html
+         and https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html 
+        */
+        
+        System.out.println ("\nLesson 11 (Constructor, overloading and access modifier):\n");
+        
+        MethodDemo methodDemo = new MethodDemo();
+        methodDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
