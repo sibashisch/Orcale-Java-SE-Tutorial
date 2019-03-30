@@ -164,6 +164,18 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 13. Nested Class
+        URL: https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+        */
+        
+        System.out.println ("\nLesson 13 (Nested Class):\n");
+        
+        NestedClassDemo nestedClassDemo = new NestedClassDemo();
+        nestedClassDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
