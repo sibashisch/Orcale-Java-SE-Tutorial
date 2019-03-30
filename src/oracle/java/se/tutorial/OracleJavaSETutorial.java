@@ -176,6 +176,18 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 14. Lambda Expressions
+        URL: https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+        */
+        
+        System.out.println ("\nLesson 14 (Lambda Expressions):\n");
+        
+        LambdaDemo lambdaDemo = new LambdaDemo();
+        lambdaDemo.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
+        
     }
     
 }
