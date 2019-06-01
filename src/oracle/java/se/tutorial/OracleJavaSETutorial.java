@@ -188,6 +188,17 @@ public class OracleJavaSETutorial {
         
         System.out.println ("------------------------------------------------------------------");
         
+        /*
+        Job 15. Diamond Problem Demo
+        This is not directly from Oracle docs, This is a general concept.
+        */
+        
+        System.out.println ("\nLesson 15 (Diamond Problem):\n");
+        
+        DiamondDemoClass diamondDemoClass = new DiamondDemoClass();
+        diamondDemoClass.demo();
+        
+        System.out.println ("------------------------------------------------------------------");
     }
     
 }
